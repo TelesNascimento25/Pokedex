@@ -1,0 +1,79 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: white;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+#pokedex-logo {
+ width:auto;
+ text-align: center;
+}
+
+.pagination button {
+        animation: flicker 1.5s infinite alternate;
+        color: #fff;
+      }
+      
+      h1 {
+        font-size: 4.2rem;    
+      }
+      
+      /* Flickering animation */
+      @keyframes flicker {
+          
+        0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      
+            text-shadow:
+            0 0 4px #92bd12,
+            0 0 11px #2d12b2,
+            0 0 19px #f8f8f8,
+            0 0 40px rgb(3, 44, 105),
+            0 0 80px rgb(20, 71, 137),
+            0 0 90px rgb(2, 29, 117),
+            0 0 100px rgb(12, 85, 195),
+            0 0 150px rgb(4, 0, 255);
+        
+        }
+        
+        20%, 24%, 55% {        
+            text-shadow: none;
+        }    
+      }
+      
+      
+      /* Additional styling */
+        
+      h2 {
+       font-size: 1.8rem;
+      }
+      .container {
+        margin-top: 20vh;
+      }
+      
+      body {
+        font-size: 18px;
+        font-family: "Helvetica Neue", sans-serif;
+        background-image:url(./images/pokemon_wallpaper01_1680.jpg);
+      }  
+      
+      h1, h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 400;
+      }
+  
